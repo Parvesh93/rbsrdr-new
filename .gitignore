@@ -1,0 +1,35 @@
+/node_modules
+/vendor
+
+.env
+.env.*
+!.env.example
+
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/*.key
+
+/bootstrap/cache/*.php
+/bootstrap/cache/*.tmp
+
+/public/build
+/public/hot
+/public/storage
+
+# Runtime/user uploads
+/public/uploads/
+
+# Backups / archives
+*.zip
+*.sql
+*.bak
+*.tar
+*.gz
+
+# IDE / OS
+/.idea
+/.vscode
+.DS_Store
+Thumbs.db
